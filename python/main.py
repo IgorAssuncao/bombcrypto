@@ -58,3 +58,4 @@ if __name__ == '__main__':
     total_bcoins = wooden_chest_rewards + metal_chest_rewards + gold_chest_rewards + crystal_chest_rewards
     print(f'Total bcoins: {total_bcoins:.5f}')
 
+    input('Press any key to exit.')
