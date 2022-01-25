@@ -1,8 +1,8 @@
-from .chest_type import ChestType
+from chest_type import ChestTypeEnum
 
 
-class ChestRewards():
-    def __init__(self, chest_type: ChestType) -> None:
+class ChestRewards:
+    def __init__(self, chest_type: ChestTypeEnum) -> None:
         self.bcoin = 0
         self.hero = False
         self.adventure_key = False
